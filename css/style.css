@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+nav {
+  background-color: #000000;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav ul {
+  list-style: none;
+  margin-left: 30em;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  position: fixed;
+}
+
+nav li {
+  margin-right: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0 10px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+nav .cart {
+  display: flex;
+  align-items: center;
+}
+
+nav .cart i {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+nav .cart a {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+nav .cart a:before {
+  content: '3';
+  background-color: #ff5f5f;
+  color: #ffffff;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  font-weight: bold;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}
+
+nav .cart a:hover:before {
+  transform: scale(1.1);
+}
+
+    nav a:hover {
+      background-color: #000000;
+      font-family: 'Roboto', sans-serif;
+
+    }
+  /* Estilos de imagen de encabezado */
+  header img {
+    width: 100%; height: 1000px;
+    padding: 0; margin-left: 1em;
+  }
+  
+  /* Estilos de contenido principal */
+  main {
+    padding: 20px;
+    text-align: center;
+
+  }
+  
+     main h1 {
+      font-size: 36px;
+      margin-top: 50px;
+     font-family: 'Tilt Neon', cursive;
+     color: #ffffff;
+    }
+  
+        main p {
+        font-size: 18px;
+        line-height: 1.5;
+        margin-bottom: 50px;
+        font-family: 'Roboto', sans-serif;
+        color: #000000;
+      }
+  
+        main h2 {
+         font-size: 24px;
+          margin-bottom: 30px;
+          font-family: 'Tilt Neon', cursive;
+          color: #000000;
+        }
+  
+  /* Estilos de pie de página */
+  footer {
+    padding: 20px;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    }
+  
+    
+  
+  footer p {
+    margin-bottom: 20px;
+  }
+  
+  .redes-sociales {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .redes-sociales a {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .redes-sociales img {
+    width: 40px;
+  }
+  body {
+    background-image: url();}
+.backgroundblack {
+  background-color: #000000;
+}
+.sneaker-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.sneaker {
+  width: 300px;
+  height: 400px;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sneaker h2 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.sneaker img {
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+}
+
+.sneaker p {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 18px;
+}
+.black{
+  color: #000000;
+}
+.logo {
+  margin-right: 1000px;
+  width: 150px;
+  height: auto;
+}
+.contenedor-zapatillas {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.zapatilla{
+  width: 300px;
+  height: 400px;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.support {
+  background-color: #f8f8f8;
+  padding: 50px;
+}
+
+.support h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.support p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.support form label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.support form input,
+.support form textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.support form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.support form button:hover {
+  background-color: #0062cc;
+}
+.cart {
+  background-color: #f8f8f8;
+  padding: 50px;
+}
+
+.cart h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.cart table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+
+.cart table th,
+.cart table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.cart table th {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.cart table td input {
+  width: 50px;
+  padding: 5px;
+  text-align: center;
+}
+
+.cart .total {
+  text-align: right;
+  margin-bottom: 30px;
+}
+
+.cart .total span {
+  font-weight: bold;
+}
+
+.cart .checkout {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
+
+.cart .checkout:hover {
+  background-color: #0062cc;
+}

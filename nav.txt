@@ -1,0 +1,32 @@
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: hsl(0, 0%, 0%);
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+   nav li {
+    margin: 0 1em;
+    justify-content: center;
+    display: flex;
+  }
+  
+    nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+    justify-content: center;
+  
+    }
